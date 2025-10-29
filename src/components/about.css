@@ -1,0 +1,72 @@
+#about{
+  height: auto;
+  padding-bottom: 5rem;
+  background-color: var(--black);
+}
+
+ #about h1{
+  color: var(--white-second);
+  text-align: start;
+  text-transform: capitalize;
+  padding-top: 5rem;
+  left: 20px;
+  padding-left: 8rem;
+  padding-bottom: 2rem;
+  width: auto;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+
+
+.certificates {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.scroll {
+  display: flex;
+  animation: scroll-left 30s linear infinite;
+}
+
+.scroll img {
+  height: 200px;
+  margin: 0 20px;
+  border-radius: 8px;  
+  filter: brightness(40%);  /* makes it look darker */
+  transition: filter 0.3s ease;
+}
+.scroll img:hover {
+  filter: brightness(100%);
+}
+
+/* Gradient overlay for left/right fade */
+.certificates::before,
+.certificates::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 90px;      /* how wide the fade effect is */
+  height: 100%;
+  z-index: 2;
+  pointer-events: none; /* make sure it doesn’t block clicks */
+}
+
+.certificates::before {
+  left: 0;
+  background: linear-gradient(to right, var(--psedo-color), transparent);
+}
+
+.certificates::after {
+  right: 0;
+  background: linear-gradient(to left, var(--psedo-color), transparent);
+}
+
+@keyframes scroll-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-200%); }
+}

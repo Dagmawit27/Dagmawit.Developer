@@ -1,0 +1,124 @@
+.recent-works {
+  margin: 0 auto;
+  width: auto;
+  background-color: var(--black);
+  height: auto;
+  margin-bottom: 0;
+}
+
+.works-header {
+  text-align: start;
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: var(--white);
+  margin: 0;
+  padding-top: 5rem;
+  padding-left: 4rem;
+}
+
+.projects-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  border-radius: 12px;
+  background-color: var(--box-bg);
+  width: 20rem;
+  height: auto;
+}
+
+.project-image{
+  overflow: hidden;
+  height: 200px;
+}
+
+.project-image img{
+  width: 100%;
+  filter: brightness(80%);
+  border-radius: 12px;
+}
+
+.project-content{
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem .4rem;
+  justify-content: center;
+}
+
+.project-content-title{
+  color: var(--white);
+  display: flex;
+  gap: -2rem;
+  justify-content: space-around;
+}
+
+.project-content-title h1{
+  font-size: 1.5rem;
+}
+
+.project-content-para{
+  color: var(--white-trans);
+  line-height: 1.2rem;
+  letter-spacing: .1rem;
+  margin: 1rem auto;
+}
+
+.project-content-para span{
+  color: var(--white);
+}
+
+.buttonss {
+  display: flex;           /* arrange children in a row */
+  gap: 10px;               /* space between buttons */
+  justify-content: center; /* optional: align left */
+  flex-wrap: wrap;         /* optional: wrap on small screens */
+}
+
+.btns {
+  display: flex;           /* so emoji and text align nicely */
+  align-items: center;     /* vertically center emoji & text */
+  padding: 8px 16px;
+  width: 5rem;
+  background-color: var(--black-trans);
+  color: var(--white);
+  border-radius: .8rem;
+  text-decoration: none;
+  border: 1px solid var(--white-trans);
+  transition: background 0.3s ease;
+}
+
+.btns:hover {
+  border: 1px solid var(--white);
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .recent-works {
+    padding: 60px 15px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .project-card {
+    padding: 25px;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+  }
+}
