@@ -1,21 +1,21 @@
 .contact-section {
   text-align: center;
-  background-color: var(--black);
+  background-color: var(--contact-black);
   width: auto;
   font-family: Arial, sans-serif;
-  border: 2px solid red;padding-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 
 .contact-title {
   font-size: 2rem;
   font-weight: bold;
   margin: 1rem 0;
-  color: var(--white);
+  color: var(--contact-white);
   margin-top: 6rem;
 }
 
 .contact-subtitle {
-  color: var(--white-trans);
+  color: var(--contact-white-trans);
   font-size: 1.1rem;
   max-width: 600px;
   margin: 2rem auto;
@@ -29,7 +29,6 @@
   gap: 3rem;
   padding: 3rem;
   flex-wrap: wrap;
-  border: 2px solid red;
 }
 
 
@@ -38,9 +37,9 @@
   border-radius: 10px;
   padding: 1.5rem;
   margin: auto;
-  color: var(--white);
+  color: var(--contact-white);
   transition: 0.3s ease;
-  background-color: var(--box-bg);
+  background-color: var(--contact-box-bg);
 }
 
 .contact{
@@ -74,24 +73,27 @@
 }
 
 .get-started {
-  background-color: var(--box-bg);
+  background-color: var(--contact-box-bg);
   color: #fff;
   border-radius: 15px;
   padding: 3rem 2rem;
   max-width: 700px;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .get-started h2{
-  color: var(--white);
+  color: var(--contact-white);
 
 }
 .get-started p{
-  color: var(--white-trans);
+  color: var(--contact-white-trans);
   margin: 1.7rem 0;
   line-height: 1/5rem;
 }
+
+
+
+
 
 
 
@@ -111,87 +113,3 @@
   }
 
 }
-
-/*
-.contact-grid {
-  width: 70%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
-}
-
-.contact-card {
-  max-width: 20rem;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 1.5rem;
-  transition: 0.3s ease;
-  background-color: #f9f9ff;
-}
-
-.contact-card:hover {
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
-  transform: translateY(-5px);
-}
-
-.contact-icon {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.contact-card h3 {
-  margin: 0.5rem 0;
-}
-
-.contact-card button {
-  margin-top: 0.8rem;
-  background-color: #516ef6;
-  border: none;
-  color: white;
-  padding: 0.5rem 1.2rem;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.contact-card button:hover {
-  background-color: #3453c5;
-}
-*/
-/* Blue Get Started Section */
-/*
-.get-started {
-  background-color: #516ef6;
-  color: #fff;
-  border-radius: 15px;
-  padding: 3rem 2rem;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.get-started h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
-
-.get-started p {
-  color: #e3e3ff;
-  margin-bottom: 1.5rem;
-}
-
-.get-started-btn {
-  background-color: white;
-  color: #516ef6;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  font-weight: bold;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.get-started-btn:hover {
-  background-color: #e0e4ff;
-}
-*/
-/* Responsive */

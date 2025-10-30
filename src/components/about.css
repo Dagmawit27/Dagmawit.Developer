@@ -1,11 +1,11 @@
 #about{
   height: auto;
   padding-bottom: 5rem;
-  background-color: var(--black);
+  background-color: var(--aboutSection-black);
 }
 
  #about h1{
-  color: var(--white-second);
+  color: var(--aboutSection-white-second);
   text-align: start;
   text-transform: capitalize;
   padding-top: 5rem;
@@ -37,33 +37,33 @@
   height: 200px;
   margin: 0 20px;
   border-radius: 8px;  
-  filter: brightness(40%);  /* makes it look darker */
+  filter: brightness(90%);  
   transition: filter 0.3s ease;
 }
 .scroll img:hover {
   filter: brightness(100%);
 }
 
-/* Gradient overlay for left/right fade */
+
 .certificates::before,
 .certificates::after {
   content: "";
   position: absolute;
   top: 0;
-  width: 90px;      /* how wide the fade effect is */
+  width: 90px;      
   height: 100%;
   z-index: 2;
-  pointer-events: none; /* make sure it doesn’t block clicks */
+  pointer-events: none; 
 }
 
 .certificates::before {
   left: 0;
-  background: linear-gradient(to right, var(--psedo-color), transparent);
+  background: linear-gradient(to right, var(--aboutSection-psedo-color), transparent);
 }
 
 .certificates::after {
   right: 0;
-  background: linear-gradient(to left, var(--psedo-color), transparent);
+  background: linear-gradient(to left, var(--aboutSection-psedo-color), transparent);
 }
 
 @keyframes scroll-left {

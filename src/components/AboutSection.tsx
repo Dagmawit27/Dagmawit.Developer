@@ -14,7 +14,6 @@ export function AboutSection(){
   return(
     <>
       <section id="about">
-      <title>about</title>
         <div>
           <States />
         </div>

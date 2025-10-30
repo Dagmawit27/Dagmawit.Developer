@@ -23,6 +23,41 @@
   --aboutSection-white: rgb(255, 255, 255);
   --aboutSection-white-trans: rgba(240, 248, 255, 0.603);
   --aboutSection-white-second: aliceblue;
+  --aboutSection-psedo-color: rgba(0, 0, 0, 0.784);
+  
+  --aboutMe-black: black;
+  --aboutMe-black-trans: rgba(0, 0, 0, 0.331);
+  --aboutMe-white: rgb(255, 255, 255);
+  --aboutMe-white-trans: rgba(240, 248, 255, 0.603);
+  --aboutMe-white-second: aliceblue;
+  --aboutMe-box-bg: rgba(248, 249, 250, 0.09);
+   
+  --project-black: black;
+  --project-black-trans: rgba(0, 0, 0, 0.331);
+  --project-white: rgb(255, 255, 255);
+  --project-white-trans: rgba(240, 248, 255, 0.603);
+  --project-white-second: aliceblue;
+  --project-box-bg: rgba(248, 249, 250, 0.09);
+   
+  --contact-black: black;
+  --contact-black-trans: rgba(0, 0, 0, 0.331);
+  --contact-white: rgb(255, 255, 255);
+  --contact-white-trans: rgba(240, 248, 255, 0.603);
+  --contact-white-second: aliceblue;
+  --contact-box-bg: rgba(248, 249, 250, 0.09);
+   
+  --states-black: black;
+  --states-black-trans: rgba(0, 0, 0, 0.331);
+  --states-white: rgb(255, 255, 255);
+  --states-white-trans: rgba(240, 248, 255, 0.603);
+  --states-white-second: aliceblue;
+  --states-box-bg: rgba(248, 249, 250, 0.09);
+   
+  --footer-black: black;
+  --footer-black-trans: rgba(0, 0, 0, 0.331);
+  --footer-white: rgb(255, 255, 255);
+  --footer-white-trans: rgba(240, 248, 255, 0.603);
+  --footer-white-second: aliceblue;
   
   --black-trans: rgba(0, 0, 0, 0.331);
   --black: rgb(0,0,0);
@@ -32,20 +67,53 @@
   --box-bg: rgba(248, 249, 250, 0.09);
   --psedo-color: rgba(0, 0, 0, 0.9);
 }
-/*
+
 body[data-theme="light"] {
-  --black: #ffffff;
-  --white: rgb(0, 0, 0);
-  --text-color: #111111;
-  --secondary-text: #555555;
-  --accent-color: #3b82f6;
-  --box-bg: #3b82f6;
-  --psedo-color: rgba(0, 0, 0, 0.9);
-  --black-trans: rgba(166, 166, 166, 0.457);
-  --white-trans: rgba(0, 0, 0, 0.3);
-  --white-second: #ffffff;
+
+  --header-black: rgb(0, 0, 0);
+  --header-black-trans: rgba(0, 0, 0, 0.535);
+  --header-white: rgb(255, 255, 255);
+  --header-white-trans: rgba(255, 255, 255, 0.603);
+  --header-white-second: aliceblue;
+  
+  --states-black: rgb(0, 0, 0);
+  --states-black-trans: rgba(0, 0, 0, 0.331);
+  --states-white: rgb(0, 0, 0);
+  --states-white-trans: rgba(0, 0, 0, 0.398);
+  --states-white-second: rgb(40, 41, 42);
+  --states-box-bg: rgb(214, 236, 255);
+
+  
+  --aboutSection-black: rgb(255, 255, 255);
+  --aboutSection-black-trans: rgba(255, 255, 255, 0.331);
+  --aboutSection-white: rgb(0, 0, 0);
+  --aboutSection-white-trans: rgba(0, 0, 0, 0.613);
+  --aboutSection-white-second: rgb(33, 34, 35);
+  --aboutSection-psedo-color: rgba(255, 255, 255, 0.417);
+  
+  --aboutMe-black: rgb(255, 255, 255);
+  --aboutMe-black-trans: rgba(194, 194, 194, 0.308);
+  --aboutMe-white: rgb(0, 0, 0);
+  --aboutMe-white-trans: rgba(0, 0, 0, 0.426);
+  --aboutMe-white-second: rgb(78, 79, 81);
+  --aboutMe-box-bg: rgb(214, 236, 255);
+   
+  --project-black: rgb(255, 255, 255);
+  --project-black-trans: rgba(255, 255, 255, 0.784);
+  --project-white: rgb(0, 0, 0);
+  --project-white-trans: rgba(66, 66, 66, 0.603);
+  --project-white-second: aliceblue;
+  --project-box-bg: rgb(214, 236, 255);
+    
+  --contact-black: rgb(255, 255, 255);
+  --contact-black-trans: rgba(216, 216, 216, 0.799);
+  --contact-white: rgb(0, 0, 0);
+  --contact-white-trans: rgba(38, 38, 38, 0.603);
+  --contact-white-second: rgb(59, 59, 59);
+  --contact-box-bg: rgb(214, 236, 255);
+  
 }
-*/
+
 html, body {
   min-width: 428px;
   overflow-x: auto;

@@ -3,7 +3,6 @@ export function HomeSection(){
   return (
     <>
       <section id='home'>
-        <title>home</title>
         <div className="content">
           <h1>I’m Dagmawit Mesfin</h1>
           <p className='name'>Programmer | Web Developer | Problem Solver </p>

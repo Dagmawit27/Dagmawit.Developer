@@ -5,7 +5,7 @@ export function Header() {
   const [menuActive, setMenuActive] = useState(false);
   const toggleMenu = () => setMenuActive(!menuActive);
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
-    // 🌙 Toggle theme (light/dark)
+   
   const toggleTheme = () => {
     const newTheme = theme === "dark" ? "light" : "dark";
     setTheme(newTheme);
@@ -30,7 +30,6 @@ export function Header() {
 
     window.addEventListener("scroll", handleScroll);
 
-    // Cleanup when component is removed
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -50,7 +49,7 @@ export function Header() {
         {menuActive ? "✖" : "☰"}
       </div>
         <div className="theme-toggle" onClick={toggleTheme}>
-          {theme === "dark" ? "☀️" : "🌙"}
+          {theme === "dark" ? "Light Mode☀️" : "Dark Mode🌙"}
         </div>
     </header>
   );

@@ -1,6 +1,6 @@
 #footer {
-  background-color: var(--black);
-  color: var(--white-trans);
+  background-color: var(--footer-black);
+  color: var(--footer-white-trans);
   text-align: center;
   padding: 2rem 1rem;
   width: auto;
@@ -17,18 +17,16 @@
   margin: auto;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
 }
 
 #footer .socials a {
-  color: var(--white-trans);
+  color: var(--footer-white-trans);
   font-size: 1.8rem;
-  border: 2px solid greenyellow;
   transition: color 0.3s ease;
 }
 
 #footer .socials a:hover {
-  color: var(--white-second);
+  color: var(--footer-white-second);
 }
 
 @media (max-width: 768px) {
@@ -43,7 +41,7 @@
 
   #footer .socials a {
     font-size: 1.6rem;
-    color: var(--white-trans);
+    color: var(--footer-white-trans);
   }
   
 }

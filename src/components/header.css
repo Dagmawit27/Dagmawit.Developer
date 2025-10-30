@@ -44,10 +44,14 @@
 
 #header.sticky {
   position: fixed;
+  color: var(--header-white);
   background: var(--header-black);
 }
 
-
+.theme-toggle{
+  cursor: pointer;
+    color: var(--header-white);
+}
 
 
 @media (max-width: 1024px) {
