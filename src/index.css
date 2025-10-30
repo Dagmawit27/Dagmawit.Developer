@@ -58,14 +58,6 @@
   --footer-white: rgb(255, 255, 255);
   --footer-white-trans: rgba(240, 248, 255, 0.603);
   --footer-white-second: aliceblue;
-  
-  --black-trans: rgba(0, 0, 0, 0.331);
-  --black: rgb(0,0,0);
-  --white-trans: rgba(240, 248, 255, 0.603);
-  --white: rgb(255, 255, 255);
-  --white-second: aliceblue;
-  --box-bg: rgba(248, 249, 250, 0.09);
-  --psedo-color: rgba(0, 0, 0, 0.9);
 }
 
 body[data-theme="light"] {
